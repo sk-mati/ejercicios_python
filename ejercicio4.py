@@ -1,6 +1,6 @@
 # Pide al usuario que ingrese el valor de la base y la altura de un triángulo (float). Calcula el área del triángulo utilizando la fórmula área = (base * altura) / 2 y muestra el resultado.
 
-base = float(input("\nBienvenido, ingrese el valor de la base del triángulo (en metros): ")) # Pedido de la base del triángulo
+base = float(input("\nBienvenido/a, ingrese el valor de la base del triángulo (en metros): ")) # Pedido de la base del triángulo
 
 altura = float(input("\nA continuación, ingrese el valor de la altura del triángulo (en metros): ")) # Pedido de la altura del triángulo
 

@@ -6,7 +6,7 @@ b = 7
 
 c = a # Almaceno el valor para el intercambio posterior
 
-print("\nAntes del intercambio: ")
+print("\nAntes del intercambio, los valores son: ")
 print("\na = ", a)
 print("\nb = ", b)
 
@@ -14,6 +14,6 @@ a = b
 
 b = c 
 
-print("\nDespués del intercambio: ")
+print("\nDespués del intercambio, así quedaron los valores: ")
 print("\na = ", a)
 print("\nb = ", b, "\n")

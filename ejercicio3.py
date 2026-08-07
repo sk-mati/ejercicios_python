@@ -10,6 +10,4 @@ edad = 100
 
 # Muestra por pantalla la oración
 
-print("\n") # Salto de línea
-print(f"Hola, mi nombre es {nombre} {apellido} y tengo {edad} años.") # Uso de f-strings para colocar variables en la cadena de texto
-print("\n")
+print(f"\nHola, mi nombre es {nombre} {apellido} y tengo {edad} años.\n") # Uso de f-strings para colocar variables en la cadena de texto
