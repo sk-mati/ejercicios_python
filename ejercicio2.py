@@ -1,5 +1,4 @@
-# Pide al usuario que ingrese un número decimal (float). 
-# Convierte ese número a un entero y luego a una cadena de texto. Muestra ambos resultados.
+# Pide al usuario que ingrese un número decimal (float). Convierte ese número a un entero y luego a una cadena de texto. Muestra ambos resultados.
 
 numero_decimal = float(input("\nBienvenido, ingrese un número decimal: ")) # Pedido
 
