@@ -5,7 +5,7 @@ a = 5
 
 b = 7
 
-c = a
+c = a # Almaceno el valor para el intercambio posterior
 
 print("Antes del intercambio: ")
 print("a: ", a)
