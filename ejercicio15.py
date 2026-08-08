@@ -43,6 +43,14 @@
 # |  F  |  V  |     F     |     V    |    V    |    F    |
 # |  F  |  F  |     F     |     F    |    V    |    V    |
 
+# Precedencia de operadores
+
+# alta precedencia  
+# ()   **   +x   -x   ~x   *   /   //   %   +   -   <<   >>   &   ^   |   
+# is   is not   in   not in   <   <=   >   >=   ==   !=
+# not x   and   or   if else   lambda   =   +=   -=   *=   /= 
+# baja precedencia
+
 # Papel
 
 # and
@@ -100,7 +108,7 @@ expresion22 = (not 43 or 99 >= 999) and 2 ** 2 or (4 != 43 and "Python" > "Pytho
 expresion23 = 6 and 6 + 34
 expresion24 = 0.0 and 6 + 34
 expresion25 = not 0.0 and 5 + 5
-expresion26 = "23" == "23" and 34 >= 34 or (241 < 98 or 436 <= 1988) and not 987 > 76 # Jerarquía
+expresion26 = "23" == "23" and 34 >= 34 or (241 < 98 or 436 <= 1988) and not 987 > 76 # Precedencia
 
 print(f"\nDe todo un poco\n")
 print(f"La variable expresion18 está compuesta por valores: True - and - True - and - True. Su valor booleano final es True. Verifico: {expresion18}")
